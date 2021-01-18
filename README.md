@@ -6,7 +6,7 @@ description: Algorithm With Java
 
 leetcode
 
-synchronized to Github
+synchronized to Github master
 
 References
 
