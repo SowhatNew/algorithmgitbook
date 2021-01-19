@@ -4,10 +4,12 @@ description: Medium
 
 # 94 Binary Tree Inorder Traversal
 
-```java
+```text
 // Given the root of a binary tree, 
 // return the inorder traversal of its nodes' values.
+```
 
+```java
 public class Solution {
     List<Integer> list = new LinkedList<>();
     public List<Integer> inorderTraversal(TreeNode root) {
@@ -55,6 +57,5 @@ public class Solution {
         }
     }
 }
-
 ```
 

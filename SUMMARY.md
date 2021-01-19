@@ -12,6 +12,10 @@
 
 * [TreeIntro](tree/treeintro.md)
 * [94 Binary Tree Inorder Traversal](tree/94-binary-tree-inorder-traversal.md)
+* [95 Unique Binary Search Trees II](tree/95-unique-binary-search-trees-ii.md)
+* [96 Unique Binary Search Trees](tree/96-unique-binary-search-trees.md)
+* [98 Validate Binary Search Tree](tree/98-validate-binary-search-tree.md)
+* [102 Binary Tree Level Order Traversal](tree/102-binary-tree-level-order-traversal.md)
 * [103 Binary Tree Zigzag Level Order Traversal](tree/103-binary-tree-zigzag-level-order-traversal.md)
 * [105 Construct Binary Tree from Preorder and Inorder Traversal](tree/105-construct-binary-tree-from-preorder-and-inorder-traversal.md)
 * [106 Construct Binary Tree from Inorder and Postorder Traversal](tree/106-construct-binary-tree-from-inorder-and-postorder-traversal.md)
@@ -20,8 +24,12 @@
 * [116 Populating Next Right Pointers in Each Node](tree/116-populating-next-right-pointers-in-each-node.md)
 * [117 Populating Next Right Pointers in Each Node II](tree/117-populating-next-right-pointers-in-each-node-ii.md)
 * [129 Sum Root to Leaf Numbers](tree/129-sum-root-to-leaf-numbers.md)
+* [144 Binary Tree Preorder Traversal](tree/144-binary-tree-preorder-traversal.md)
+* [145 Binary Tree Postorder Traversal](tree/145-binary-tree-postorder-traversal.md)
+* [173 Binary Search Tree Iterator](tree/173-binary-search-tree-iterator.md)
 * [199 Binary Tree Right Side View](tree/199-binary-tree-right-side-view.md)
 * [222 Count Complete Tree Nodes](tree/222-count-complete-tree-nodes.md)
 * [230 Kth Smallest Element in a BST](tree/230-kth-smallest-element-in-a-bst.md)
 * [236 Lowest Common Ancestor of a Binary Tree](tree/236-lowest-common-ancestor-of-a-binary-tree.md)
+* [284 Peeking Iterator](tree/284-peeking-iterator.md)
 
