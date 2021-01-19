@@ -21,4 +21,5 @@
 * [117 Populating Next Right Pointers in Each Node II](tree/117-populating-next-right-pointers-in-each-node-ii.md)
 * [129 Sum Root to Leaf Numbers](tree/129-sum-root-to-leaf-numbers.md)
 * [199 Binary Tree Right Side View](tree/199-binary-tree-right-side-view.md)
+* [222 Count Complete Tree Nodes](tree/222-count-complete-tree-nodes.md)
 
