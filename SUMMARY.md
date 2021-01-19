@@ -23,4 +23,5 @@
 * [199 Binary Tree Right Side View](tree/199-binary-tree-right-side-view.md)
 * [222 Count Complete Tree Nodes](tree/222-count-complete-tree-nodes.md)
 * [230 Kth Smallest Element in a BST](tree/230-kth-smallest-element-in-a-bst.md)
+* [236 Lowest Common Ancestor of a Binary Tree](tree/236-lowest-common-ancestor-of-a-binary-tree.md)
 
