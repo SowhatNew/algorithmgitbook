@@ -72,3 +72,8 @@
 * [1022 Sum of Root To Leaf Binary Numbers](tree/1022-sum-of-root-to-leaf-binary-numbers.md)
 * [1469 Find All the Lonely Nodes](tree/1469-find-all-the-lonely-nodes.md)
 
+## LinkedList
+
+* [LinkedListIntro](linkedlist/linkedlistintro.md)
+* [21 Merge Two Sorted Lists](linkedlist/21-merge-two-sorted-lists.md)
+
