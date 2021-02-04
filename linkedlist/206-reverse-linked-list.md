@@ -85,3 +85,23 @@ public class Solution {
 }
 ```
 
+## B2
+
+```text
+public class Solution {
+    /*
+    Runtime: 0 ms, faster than 100.00% of Java online submissions for Reverse Linked List.
+    Memory Usage: 38.6 MB, less than 78.99% of Java online submissions for Reverse Linked List.
+     */
+    public ListNode reverseList(ListNode head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+        ListNode last = reverseList(head.next);
+        head.next.next = head;
+        head.next = null;
+        return last;
+    }
+}
+```
+
