@@ -1,5 +1,11 @@
 # Tree
 
+## Concept
+
+DFS ~ Recursive
+
+BFS ~ Iterative
+
 ## Way
 
 ### 遍历方式

@@ -11,6 +11,11 @@
 ## Tree
 
 * [TreeIntro](tree/treeintro.md)
+* [DFSTemplate](tree/dfstemplate.md)
+* [BFSTemplate](tree/bfstemplate.md)
+* [BFSPreorderTemplate](tree/bfspreordertemplate.md)
+* [BFSInorderTemplate](tree/bfsinordertemplate.md)
+* [BFSPostorderTemplate](tree/bfspostordertemplate.md)
 * [94 Binary Tree Inorder Traversal](tree/94-binary-tree-inorder-traversal.md)
 * [95 Unique Binary Search Trees II](tree/95-unique-binary-search-trees-ii.md)
 * [96 Unique Binary Search Trees](tree/96-unique-binary-search-trees.md)
