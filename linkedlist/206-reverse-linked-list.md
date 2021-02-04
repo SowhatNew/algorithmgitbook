@@ -23,23 +23,24 @@ Could you implement both?
 public class Solution {
     /*
     Runtime: 0 ms, faster than 100.00% of Java online submissions for Reverse Linked List.
-    Memory Usage: 38.7 MB, less than 65.14% of Java online submissions for Reverse Linked List.
+    Memory Usage: 38.7 MB, less than 67.55% of Java online submissions for Reverse Linked List.
      */
     public ListNode reverseList(ListNode head) {
         if (head == null) {
             return null;
         }
-        ListNode pre, cur;
-        cur = head.next;
-        pre = null;
-        while (cur != null) {
-            head.next = pre;
-            pre = head;
-            head = cur;
-            cur = cur.next;
+        ListNode preNode, curNode, nextNode;
+        preNode = null;
+        curNode = head;
+        nextNode = curNode.next;
+        while (nextNode != null) {
+            curNode.next = preNode;
+            preNode = curNode;
+            curNode = nextNode;
+            nextNode = nextNode.next;
         }
-        head.next = pre;
-        return head;
+        curNode.next = preNode;
+        return curNode;
     }
 }
 ```
