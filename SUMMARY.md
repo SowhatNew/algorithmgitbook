@@ -42,6 +42,7 @@
 * [173 Binary Search Tree Iterator](tree/173-binary-search-tree-iterator.md)
 * [199 Binary Tree Right Side View](tree/199-binary-tree-right-side-view.md)
 * [222 Count Complete Tree Nodes](tree/222-count-complete-tree-nodes.md)
+* [226 Invert Binary Tree](tree/226-invert-binary-tree.md)
 * [230 Kth Smallest Element in a BST](tree/230-kth-smallest-element-in-a-bst.md)
 * [235 Lowest Common Ancestor of a Binary Search Tree](tree/235-lowest-common-ancestor-of-a-binary-search-tree.md)
 * [236 Lowest Common Ancestor of a Binary Tree](tree/236-lowest-common-ancestor-of-a-binary-tree.md)
