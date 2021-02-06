@@ -65,6 +65,7 @@
 * [606 Construct String from Binary Tree](tree/606-construct-string-from-binary-tree.md)
 * [617 Merge Two Binary Trees](tree/617-merge-two-binary-trees.md)
 * [637	Average of Levels in Binary Tree](tree/637-average-of-levels-in-binary-tree.md)
+* [652. Find Duplicate Subtrees](tree/652.-find-duplicate-subtrees.md)
 * [653 Two Sum IV - Input is a BST](tree/653-two-sum-iv-input-is-a-bst.md)
 * [669 Trim a Binary Search Tree](tree/669-trim-a-binary-search-tree.md)
 * [671 Second Minimum Node In a Binary Tree](tree/671-second-minimum-node-in-a-binary-tree.md)
