@@ -56,6 +56,7 @@
 * [449](tree/449.md)
 * [501 Find Mode in Binary Search Tree](tree/501-find-mode-in-binary-search-tree.md)
 * [530 Minimum Absolute Difference in BST](tree/530-minimum-absolute-difference-in-bst.md)
+* [538 Convert BST to Greater Tree](tree/538-convert-bst-to-greater-tree.md)
 * [543 Diameter of Binary Tree](tree/543-diameter-of-binary-tree.md)
 * [559 Maximum Depth of N-ary Tree](tree/559-maximum-depth-of-n-ary-tree.md)
 * [563 Binary Tree Tilt](tree/563-binary-tree-tilt.md)
