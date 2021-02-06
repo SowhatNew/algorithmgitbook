@@ -16,7 +16,6 @@ description: Medium
 //
 //
 //Follow up:
-//
 //You may only use constant extra space.
 //Recursive approach is fine,
 // you may assume implicit stack space does not count as extra space for this problem.
@@ -43,7 +42,34 @@ class Node {
 }
 ```
 
-**A**
+## A
+
+```text
+public class Solution {
+    /*
+    Runtime: 2 ms, faster than 44.92% of Java online submissions for Populating Next Right Pointers in Each Node.
+    Memory Usage: 39.5 MB, less than 28.92% of Java online submissions for Populating Next Right Pointers in Each Node.
+     */
+    public Node connect(Node root) {
+        if (root == null) {
+            return root;
+        }
+        connectTwoNode(root.left, root.right);
+        return root;
+    }
+    private void connectTwoNode(Node node1, Node node2){
+        if (node1 == null || node2 == null) {
+            return;
+        }
+        node1.next = node2;
+        connectTwoNode(node1.left, node1.right);
+        connectTwoNode(node1.right, node2.left);
+        connectTwoNode(node2.left, node2.right);
+    }
+}
+```
+
+## B
 
 ```text
 public class Solution {
@@ -78,7 +104,7 @@ public class Solution {
 }
 ```
 
-**B**
+## C
 
 ```text
 public class Solution {
