@@ -5,12 +5,55 @@ description: Medium
 # 114 Flatten Binary Tree to Linked List
 
 ```text
-//Given the root of a binary tree, flatten it to a linked list in-place.
-//Input: root = [1,2,5,3,4,null,6]
-//Output: [1,null,2,null,3,null,4,null,5,null,6]   
+Given the root of a binary tree, flatten it to a linked list in-place.
+
+Input: root = [1,2,5,3,4,null,6]
+Output: [1,null,2,null,3,null,4,null,5,null,6]
+Example 2:
+
+Input: root = []
+Output: []
+Example 3:
+
+Input: root = [0]
+Output: [0]
+ 
+
+Constraints:
+The number of nodes in the tree is in the range [0, 2000].
+-100 <= Node.val <= 100  
 ```
 
-## **A**
+## A
+
+```text
+public class Solution {
+    /*
+    Runtime: 0 ms, faster than 100.00% of Java online submissions for Flatten Binary Tree to Linked List.
+    Memory Usage: 38.2 MB, less than 92.09% of Java online submissions for Flatten Binary Tree to Linked List.
+     */
+    public void flatten(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+
+        flatten(root.left);
+        flatten(root.right);
+
+        TreeNode left = root.left;
+        TreeNode right = root.right;
+        root.left = null;
+        root.right = left;
+        TreeNode p = root;
+        while (p.right != null) {
+            p = p.right;
+        }
+        p.right = right;
+    }
+}
+```
+
+## **B**
 
 ```text
 public class Solution {
@@ -38,7 +81,7 @@ public class Solution {
 }
 ```
 
-## **B**
+## **C**
 
 ```text
 public class Solution {
@@ -63,7 +106,7 @@ public class Solution {
 }
 ```
 
-## **C**
+## **D**
 
 ```text
 public class Solution {
@@ -95,7 +138,7 @@ public class Solution {
 }
 ```
 
-## **D**
+## E
 
 ```text
 public class Solution {
