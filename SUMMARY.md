@@ -8,6 +8,10 @@
 * [Tree](exercisethinking/tree.md)
 * [Recursion](exercisethinking/recursion.md)
 
+## SomeAlgorithm
+
+* [Union-Find](somealgorithm/union-find.md)
+
 ## Tree
 
 * [TreeIntro](tree/treeintro.md)
