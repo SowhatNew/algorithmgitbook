@@ -1,0 +1,15 @@
+{
+  "plugins": [
+     "collapsible-chapters",
+     "back-to-top-button", 
+     "copy-code-button",
+     "splitter",
+     "pageview-count",
+     "theme-default"
+  ],
+  "pluginsConfig": {
+      "theme-default": {
+        "showLevel": true
+      }
+  }
+}
