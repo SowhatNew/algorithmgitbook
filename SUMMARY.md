@@ -97,3 +97,7 @@
 * [234 Palindrome Linked List](linkedlist/234-palindrome-linked-list.md)
 * [876 Middle of the Linked List](linkedlist/876-middle-of-the-linked-list.md)
 
+## Design
+
+* [341 Flatten Nested List Iterator](design/341-flatten-nested-list-iterator.md)
+
