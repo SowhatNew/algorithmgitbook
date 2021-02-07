@@ -56,3 +56,33 @@ public class Solution {
 }
 ```
 
+## C
+
+```text
+public class Solution {
+    /*
+    Runtime: 0 ms, faster than 100.00% of Java online submissions for Count Complete Tree Nodes.
+    Memory Usage: 41.3 MB, less than 80.77% of Java online submissions for Count Complete Tree Nodes.    
+     */
+    public int countNodes(TreeNode root) {
+        TreeNode left, right;
+        left = right = root;
+        int hleft, hright;
+        hleft = hright = 0;
+        while (left != null) {
+            hleft++;
+            left = left.left;
+        }
+        while (right != right) {
+            hright++;
+            right = right.right;
+        }
+        if (hleft == hright) {
+            return (1 << hleft) - 1;
+            // return (int)Math.pow(2, hleft) - 1;
+        }
+        return 1 + countNodes(root.left) + countNodes(root.right);
+    }
+}
+```
+
