@@ -49,6 +49,7 @@
 * [257 Binary Tree Paths](tree/257-binary-tree-paths.md)
 * [270 Closest Binary Search Tree Value](tree/270-closest-binary-search-tree-value.md)
 * [284 Peeking Iterator](tree/284-peeking-iterator.md)
+* [297\* Serialize and Deserialize Binary Tree](tree/297-serialize-and-deserialize-binary-tree.md)
 * [337 House Robber III](tree/337.md)
 * [404 Sum of Left Leaves](tree/404-sum-of-left-leaves.md)
 * [429 N-ary Tree Level Order Traversal](tree/429-n-ary-tree-level-order-traversal.md)
