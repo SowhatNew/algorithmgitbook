@@ -72,6 +72,7 @@
 * [669 Trim a Binary Search Tree](tree/669-trim-a-binary-search-tree.md)
 * [671 Second Minimum Node In a Binary Tree](tree/671-second-minimum-node-in-a-binary-tree.md)
 * [700 Search in a Binary Search Tree](tree/700-search-in-a-binary-search-tree.md)
+* [701 Insert into a Binary Search Tree](tree/701-insert-into-a-binary-search-tree.md)
 * [783 Minimum Distance Between BST Nodes](tree/783-minimum-distance-between-bst-nodes.md)
 * [872 Leaf-Similar Trees](tree/872-leaf-similar-trees.md)
 * [897 Increasing Order Search Tree](tree/897-increasing-order-search-tree.md)
