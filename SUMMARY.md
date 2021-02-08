@@ -110,3 +110,8 @@
   * [295\* Find Median from Data Stream](design/problems/295-find-median-from-data-stream.md)
   * [341 Flatten Nested List Iterator](design/problems/341-flatten-nested-list-iterator.md)
 
+## SpecialAlgorithm
+
+* [ReservoirSampling](specialalgorithm/reservoirsampling/README.md)
+  * [382 Linked List Random Node](specialalgorithm/reservoirsampling/382-linked-list-random-node.md)
+
