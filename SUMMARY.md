@@ -104,6 +104,11 @@
   * [234 Palindrome Linked List](linkedlist/problems/234-palindrome-linked-list.md)
   * [876 Middle of the Linked List](linkedlist/problems/876-middle-of-the-linked-list.md)
 
+## SomeTags
+
+* [Stack](sometags/stack/README.md)
+  * [496 Next Greater Element I](sometags/stack/496-next-greater-element-i.md)
+
 ## Design
 
 * [Problems](design/problems/README.md)
