@@ -113,6 +113,11 @@
 
 ## Design
 
+* [Mass](design/mass/README.md)
+  * [MyQueueOfStack](design/mass/myqueueofstack.md)
+  * [MyStackOfQueue](design/mass/mystackofqueue.md)
+  * [MyLRUCache](design/mass/mylrucache.md)
+  * [MyLFUCache](design/mass/mylfucache.md)
 * [Problems](design/problems/README.md)
   * [295\* Find Median from Data Stream](design/problems/295-find-median-from-data-stream.md)
   * [341 Flatten Nested List Iterator](design/problems/341-flatten-nested-list-iterator.md)
