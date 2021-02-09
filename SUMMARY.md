@@ -91,6 +91,7 @@
 * [Problems](dynamicprogramming/problems/README.md)
   * [322 Coin Change](dynamicprogramming/problems/322-coin-change.md)
   * [509 Fibonacci Number](dynamicprogramming/problems/509-fibonacci-number.md)
+  * [712 Minimum ASCII Delete Sum for Two Strings](dynamicprogramming/problems/712-minimum-ascii-delete-sum-for-two-strings.md)
   * [1143 Longest Common Subsequence](dynamicprogramming/problems/1143-longest-common-subsequence.md)
 
 ## SomeTags
