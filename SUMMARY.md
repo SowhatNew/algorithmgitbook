@@ -96,17 +96,16 @@
 
 ## SomeTags
 
-* [LinkedList](sometags/problems/README.md)
-  * [19 Remove Nth Node From End of List](sometags/problems/19-remove-nth-node-from-end-of-list.md)
-  * [21 Merge Two Sorted Lists](sometags/problems/21-merge-two-sorted-lists.md)
-  * [25\* Reverse Nodes in k-Group](sometags/problems/25-reverse-nodes-in-k-group.md)
-  * [92 Reverse Linked List II](sometags/problems/92-reverse-linked-list-ii.md)
-  * [141 Linked List Cycle](sometags/problems/141-linked-list-cycle.md)
-  * [142 Linked List Cycle II](sometags/problems/142-linked-list-cycle-ii.md)
-  * [206 Reverse Linked List](sometags/problems/206-reverse-linked-list.md)
-  * [234 Palindrome Linked List](sometags/problems/234-palindrome-linked-list.md)
-  * [876 Middle of the Linked List](sometags/problems/876-middle-of-the-linked-list.md)
-* [Array](sometags/array.md)
+* [LinkedList](sometags/linkedlist/README.md)
+  * [19 Remove Nth Node From End of List](sometags/linkedlist/19-remove-nth-node-from-end-of-list.md)
+  * [21 Merge Two Sorted Lists](sometags/linkedlist/21-merge-two-sorted-lists.md)
+  * [25\* Reverse Nodes in k-Group](sometags/linkedlist/25-reverse-nodes-in-k-group.md)
+  * [92 Reverse Linked List II](sometags/linkedlist/92-reverse-linked-list-ii.md)
+  * [141 Linked List Cycle](sometags/linkedlist/141-linked-list-cycle.md)
+  * [142 Linked List Cycle II](sometags/linkedlist/142-linked-list-cycle-ii.md)
+  * [206 Reverse Linked List](sometags/linkedlist/206-reverse-linked-list.md)
+  * [234 Palindrome Linked List](sometags/linkedlist/234-palindrome-linked-list.md)
+  * [876 Middle of the Linked List](sometags/linkedlist/876-middle-of-the-linked-list.md)
 * [Stack](sometags/stack/README.md)
   * [496 Next Greater Element I](sometags/stack/496-next-greater-element-i.md)
   * [503 Next Greater Element II](sometags/stack/503-next-greater-element-ii.md)
@@ -126,7 +125,6 @@
 
 ## SpecialAlgorithm
 
-* [Mass](specialalgorithm/mass.md)
 * [ReservoirSampling](specialalgorithm/reservoirsampling/README.md)
   * [382 Linked List Random Node](specialalgorithm/reservoirsampling/382-linked-list-random-node.md)
 
