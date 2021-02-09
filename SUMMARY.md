@@ -5,12 +5,7 @@
 ## ExerciseThinking
 
 * [Index](exercisethinking/index.md)
-* [Tree](exercisethinking/tree.md)
 * [Recursion](exercisethinking/recursion.md)
-
-## SomeAlgorithm
-
-* [Union-Find](somealgorithm/union-find.md)
 
 ## Tree
 
@@ -90,22 +85,25 @@
   * [1022 Sum of Root To Leaf Binary Numbers](tree/problems/1022-sum-of-root-to-leaf-binary-numbers.md)
   * [1469 Find All the Lonely Nodes](tree/problems/1469-find-all-the-lonely-nodes.md)
 
-## LinkedList
+## DynamicProgramming
 
-* [LinkedListIntro](linkedlist/linkedlistintro.md)
-* [Problems](linkedlist/problems/README.md)
-  * [19 Remove Nth Node From End of List](linkedlist/problems/19-remove-nth-node-from-end-of-list.md)
-  * [21 Merge Two Sorted Lists](linkedlist/problems/21-merge-two-sorted-lists.md)
-  * [25\* Reverse Nodes in k-Group](linkedlist/problems/25-reverse-nodes-in-k-group.md)
-  * [92 Reverse Linked List II](linkedlist/problems/92-reverse-linked-list-ii.md)
-  * [141 Linked List Cycle](linkedlist/problems/141-linked-list-cycle.md)
-  * [142 Linked List Cycle II](linkedlist/problems/142-linked-list-cycle-ii.md)
-  * [206 Reverse Linked List](linkedlist/problems/206-reverse-linked-list.md)
-  * [234 Palindrome Linked List](linkedlist/problems/234-palindrome-linked-list.md)
-  * [876 Middle of the Linked List](linkedlist/problems/876-middle-of-the-linked-list.md)
+* [DynamicProgrammingIntro](dynamicprogramming/dynamicprogrammingintro.md)
+* [Problems](dynamicprogramming/problems/README.md)
+  * [509 Fibonacci Number](dynamicprogramming/problems/509-fibonacci-number.md)
 
 ## SomeTags
 
+* [LinkedList](sometags/problems/README.md)
+  * [19 Remove Nth Node From End of List](sometags/problems/19-remove-nth-node-from-end-of-list.md)
+  * [21 Merge Two Sorted Lists](sometags/problems/21-merge-two-sorted-lists.md)
+  * [25\* Reverse Nodes in k-Group](sometags/problems/25-reverse-nodes-in-k-group.md)
+  * [92 Reverse Linked List II](sometags/problems/92-reverse-linked-list-ii.md)
+  * [141 Linked List Cycle](sometags/problems/141-linked-list-cycle.md)
+  * [142 Linked List Cycle II](sometags/problems/142-linked-list-cycle-ii.md)
+  * [206 Reverse Linked List](sometags/problems/206-reverse-linked-list.md)
+  * [234 Palindrome Linked List](sometags/problems/234-palindrome-linked-list.md)
+  * [876 Middle of the Linked List](sometags/problems/876-middle-of-the-linked-list.md)
+* [Array](sometags/array.md)
 * [Stack](sometags/stack/README.md)
   * [496 Next Greater Element I](sometags/stack/496-next-greater-element-i.md)
   * [503 Next Greater Element II](sometags/stack/503-next-greater-element-ii.md)
@@ -114,6 +112,7 @@
 ## Design
 
 * [Mass](design/mass/README.md)
+  * [MyUnion-Find](design/mass/union-find.md)
   * [MyQueueOfStack](design/mass/myqueueofstack.md)
   * [MyStackOfQueue](design/mass/mystackofqueue.md)
   * [MyLRUCache](design/mass/mylrucache.md)
@@ -124,6 +123,7 @@
 
 ## SpecialAlgorithm
 
+* [Mass](specialalgorithm/mass.md)
 * [ReservoirSampling](specialalgorithm/reservoirsampling/README.md)
   * [382 Linked List Random Node](specialalgorithm/reservoirsampling/382-linked-list-random-node.md)
 
