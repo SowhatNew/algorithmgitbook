@@ -89,6 +89,7 @@
 
 * [DynamicProgrammingIntro](dynamicprogramming/dynamicprogrammingintro.md)
 * [Problems](dynamicprogramming/problems/README.md)
+  * [72\* Edit Distance](dynamicprogramming/problems/72-edit-distance.md)
   * [322 Coin Change](dynamicprogramming/problems/322-coin-change.md)
   * [509 Fibonacci Number](dynamicprogramming/problems/509-fibonacci-number.md)
   * [712 Minimum ASCII Delete Sum for Two Strings](dynamicprogramming/problems/712-minimum-ascii-delete-sum-for-two-strings.md)
