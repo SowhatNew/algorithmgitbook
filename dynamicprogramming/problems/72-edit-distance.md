@@ -37,7 +37,7 @@ Constraints:
 word1 and word2 consist of lowercase English letters.
 ```
 
-## A
+## A1
 
 ```java
 public class Solution {
@@ -78,6 +78,59 @@ public class Solution {
                     1 + dp(s1, i, s2,j-1), // insert
                     1 + dp(s1, i-1, s2, j), // delete
                     1 + dp(s1, i-1, s2,j-1) // replace
+            );
+            memo[i][j] = res;
+            return res;
+        }
+    }
+
+    private int min(int a, int b, int c) {
+        return Math.min(a, Math.min(b, c));
+    }
+}
+```
+
+## A2
+
+```java
+public class Solution {
+    /*
+    Runtime: 3 ms, faster than 99.51% of Java online submissions for Edit Distance.
+    Memory Usage: 39.4 MB, less than 35.17% of Java online submissions for Edit Distance.
+     */
+    private int memo[][];
+    public int minDistance(String s1, String s2) {
+        int m = s1.length(), n = s2.length();
+        memo = new int[m][n];
+        for (int[] row : memo) {
+            Arrays.fill(row, -1);
+        }
+
+        return dp(s1, 0, s2, 0);
+    }
+
+    private int dp(String s1, int i, String s2, int j) {
+        int res = -1;
+        if (i == s1.length()) {
+            return s2.length() - j;
+        }
+        if (j == s2.length()) {
+            return s1.length() - i;
+        }
+
+        if (memo[i][j] != -1) {
+            return memo[i][j];
+        }
+
+        if (s1.charAt(i) == s2.charAt(j)) {
+            res = dp(s1, i + 1, s2, j + 1);
+            memo[i][j] = res;
+            return res;
+        } else {
+            res = min(
+                    1 + dp(s1, i, s2,j+1), // insert
+                    1 + dp(s1, i+1, s2, j), // delete
+                    1 + dp(s1, i+1, s2,j+1) // replace
             );
             memo[i][j] = res;
             return res;
