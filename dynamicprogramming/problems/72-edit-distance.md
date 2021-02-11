@@ -185,3 +185,113 @@ public class Solution {
 }
 ```
 
+## C
+
+```java
+public class Solution {
+    /*
+    Runtime: 10 ms, faster than 15.78% of Java online submissions for Edit Distance.
+    Memory Usage: 46.6 MB, less than 5.49% of Java online submissions for Edit Distance.
+     */
+    
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+        String s1 = "intention", s2 = "execution";
+        Node node = solution.minDistance(s1, s2);
+        System.out.println("steps: " + node.val);
+//        System.out.println(node.choice);
+        int m = s1.length(), n = s2.length();
+
+        Node[][] dp = solution.dp;
+        while (m >= 1 && n >= 1) {
+            System.out.printf("%2d-%2d-", m, n);
+            System.out.print(dp[m][n].choice);
+            int a = m + dp[m][n].choice.i;
+            int b = n + dp[m][n].choice.j;
+            m = a; n = b;
+//            System.out.printf("  %d-%d", m, n);
+            System.out.println();
+        }
+
+//        for (int i = 0; i <= s1.length(); i++) {
+//            for (int j = 0; j <= s2.length(); j++) {
+//                System.out.printf("%d-%d-%s\t", i, j, dp[i][j].choice);
+//            }
+//            System.out.println();
+//        }
+    }
+    
+    enum Choice {
+        SKIP(-1, -1),
+        INSE(0, -1),
+        DELE(-1, 0),
+        REPL(-1, -1);
+        int i, j;
+        Choice(int i, int j) {
+            this.i = i;
+            this.j = j;
+        }
+    }
+
+    class Node {
+        int val;
+        Choice choice;
+    }
+
+    public Node[][] dp;
+
+    public Node minDistance(String s1, String s2) {
+        int m = s1.length(), n = s2.length();
+        dp = new Node[m + 1][n + 1];
+        for (int i = 0; i <= m; i++) {
+            for (int j = 0; j <= n; j++) {
+                dp[i][j] = new Node();
+            }
+        }
+        dp[0][0].val = 0;
+        for (int i = 1; i <= m; i++) {
+            dp[i][0].val = i;
+        }
+        for (int j = 1; j <= n; j++) {
+            dp[0][j].val = j;
+        }
+
+        for (int i = 1; i <= m; i++) {
+            for (int j = 1; j <= n; j++) {
+                if (s1.charAt(i - 1) == s2.charAt(j - 1)) {
+                    dp[i][j].val = dp[i - 1][j - 1].val;
+                    dp[i][j].choice = Choice.SKIP;
+                } else {
+                    Node node = min(
+                            dp[i][j - 1], //insert char of s1
+                            dp[i - 1][j], //delete char of s1
+                            dp[i - 1][j - 1] //replace char of s1 with char of s2
+                    );
+                    dp[i][j].val = node.val;
+                    dp[i][j].choice = node.choice;
+                }
+            }
+        }
+
+        return dp[m][n];
+    }
+
+    private Node min(Node n1, Node n2, Node n3) {
+        int a = n1.val + 1;
+        int b = n2.val + 1;
+        int c = n3.val + 1;
+        int x = Math.min(a, Math.min(b, c));
+        Node res = new Node();
+        res.val = x;
+        if (x == a) {
+            res.choice = Choice.INSE;
+        } else if (x == b) {
+            res.choice = Choice.DELE;
+        } else {
+            res.choice = Choice.REPL;
+        }
+        return res;
+    }
+}
+```
+
