@@ -69,7 +69,51 @@ public class Solution {
 }
 ```
 
-## B
+## B1
+
+```java
+public class Solution {
+    /*
+    Runtime: 14 ms, faster than 38.65% of Java online submissions for Longest Common Subsequence.
+    Memory Usage: 42.9 MB, less than 42.74% of Java online submissions for Longest Common Subsequence.
+     */
+    
+    int[][] memo;
+
+    public int longestCommonSubsequence(String text1, String text2) {
+        int m = text1.length(), n = text2.length();
+        memo = new int[m][n];
+        for (int[] row : memo) {
+            Arrays.fill(row, -1);
+        }
+
+        return dp(text1, m - 1, text2, n - 1);
+    }
+
+    private int dp(String s1, int i, String s2, int j) {
+        if (i == -1 || j == -1) {
+            return 0;
+        }
+
+        if (memo[i][j] != -1) {
+            return memo[i][j];
+        }
+
+        if (s1.charAt(i) == s2.charAt(j)) {
+            memo[i][j] = 1 + dp(s1, i - 1, s2, j - 1);
+        } else {
+            memo[i][j] = Math.max(
+                    dp(s1, i - 1, s2, j),
+                    dp(s1, i, s2, j - 1)
+            );
+        }
+
+        return memo[i][j];
+    }
+}
+```
+
+## B2
 
 ```java
 public class Solution {
