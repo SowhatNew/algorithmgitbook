@@ -27,44 +27,59 @@ Note:
 All elements of each string will have an ASCII value in [97, 122].
 ```
 
-## A
+## A1
 
 ```java
 public class Solution {
     /*
-    Runtime: 18 ms, faster than 75.72% of Java online submissions for Minimum ASCII Delete Sum for Two Strings.
-    Memory Usage: 39.2 MB, less than 90.61% of Java online submissions for Minimum ASCII Delete Sum for Two Strings.
+    Runtime: 26 ms, faster than 42.70% of Java online submissions for Minimum ASCII Delete Sum for Two Strings.
+    Memory Usage: 39.6 MB, less than 53.33% of Java online submissions for Minimum ASCII Delete Sum for Two Strings.
      */
+    int memo[][];
+
     public int minimumDeleteSum(String s1, String s2) {
         int m = s1.length(), n = s2.length();
-        int[][] dp = new int[m + 1][n + 1];
-        dp[0][0] = 0;
-        for (int i = 0; i < s1.length(); i++) {
-            dp[i+1][0] = dp[i][0] + s1.charAt(i);
+        memo = new int[m][n];
+        for (int[] row : memo) {
+            Arrays.fill(row, -1);
         }
-        for (int i = 0; i < s2.length(); i++) {
-            dp[0][i+1] = dp[0][i] + s2.charAt(i);
-        }
+        return dp(s1, m-1, s2, n-1);
+    }
 
-        for (int i = 1; i <= m; i++) {
-            for (int j = 1; j <= n; j++) {
-                if (s1.charAt(i-1) == s2.charAt(j-1)) {
-                    dp[i][j] = dp[i-1][j-1];
-                } else {
-                    dp[i][j] = Math.min(
-                            s2.charAt(j-1) + dp[i][j-1],
-                            s1.charAt(i-1) + dp[i-1][j]
-                    );
-                }
+    private int dp(String s1, int i, String s2, int j) {
+        int res = 0;
+        if (i == -1) {
+            for (; j >= 0; j--) {
+                res += s2.charAt(j);
             }
+            return res;
+        }
+        if (j == -1) {
+            for (; i >= 0; i--) {
+                res += s1.charAt(i);
+            }
+            return res;
         }
 
-        return dp[m][n];
+        if (memo[i][j] != -1) {
+            return memo[i][j];
+        }
+
+        if (s1.charAt(i) == s2.charAt(j)) {
+            memo[i][j] = dp(s1, i-1, s2, j-1);
+        } else {
+            memo[i][j] = Math.min(
+                    s1.charAt(i) + dp(s1, i-1, s2, j),
+                    s2.charAt(j) + dp(s1, i, s2, j-1)
+            );
+        }
+
+        return memo[i][j];
     }
 }
 ```
 
-## B
+## A2
 
 ```java
 public class Solution {
@@ -112,6 +127,43 @@ public class Solution {
         }
 
         return memo[i][j];
+    }
+}
+```
+
+## B
+
+```java
+public class Solution {
+    /*
+    Runtime: 18 ms, faster than 75.72% of Java online submissions for Minimum ASCII Delete Sum for Two Strings.
+    Memory Usage: 39.2 MB, less than 90.61% of Java online submissions for Minimum ASCII Delete Sum for Two Strings.
+     */
+    public int minimumDeleteSum(String s1, String s2) {
+        int m = s1.length(), n = s2.length();
+        int[][] dp = new int[m + 1][n + 1];
+        dp[0][0] = 0;
+        for (int i = 0; i < s1.length(); i++) {
+            dp[i+1][0] = dp[i][0] + s1.charAt(i);
+        }
+        for (int i = 0; i < s2.length(); i++) {
+            dp[0][i+1] = dp[0][i] + s2.charAt(i);
+        }
+
+        for (int i = 1; i <= m; i++) {
+            for (int j = 1; j <= n; j++) {
+                if (s1.charAt(i-1) == s2.charAt(j-1)) {
+                    dp[i][j] = dp[i-1][j-1];
+                } else {
+                    dp[i][j] = Math.min(
+                            s2.charAt(j-1) + dp[i][j-1],
+                            s1.charAt(i-1) + dp[i-1][j]
+                    );
+                }
+            }
+        }
+
+        return dp[m][n];
     }
 }
 ```
