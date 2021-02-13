@@ -92,6 +92,7 @@
   * [72\* Edit Distance](dynamicprogramming/problems/72-edit-distance.md)
   * [300 Longest Increasing Subsequence](dynamicprogramming/problems/300-longest-increasing-subsequence.md)
   * [322 Coin Change](dynamicprogramming/problems/322-coin-change.md)
+  * [354\* Russian Doll Envelopes](dynamicprogramming/problems/354-russian-doll-envelopes.md)
   * [509 Fibonacci Number](dynamicprogramming/problems/509-fibonacci-number.md)
   * [712 Minimum ASCII Delete Sum for Two Strings](dynamicprogramming/problems/712-minimum-ascii-delete-sum-for-two-strings.md)
   * [1143 Longest Common Subsequence](dynamicprogramming/problems/1143-longest-common-subsequence.md)
