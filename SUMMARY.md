@@ -89,6 +89,7 @@
 
 * [DynamicProgrammingIntro](dynamicprogramming/dynamicprogrammingintro.md)
 * [Problems](dynamicprogramming/problems/README.md)
+  * [53 Maximum Subarray](dynamicprogramming/problems/53-maximum-subarray.md)
   * [72\* Edit Distance](dynamicprogramming/problems/72-edit-distance.md)
   * [300 Longest Increasing Subsequence](dynamicprogramming/problems/300-longest-increasing-subsequence.md)
   * [322 Coin Change](dynamicprogramming/problems/322-coin-change.md)
