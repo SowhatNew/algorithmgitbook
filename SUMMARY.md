@@ -5,7 +5,6 @@
 ## ExerciseThinking
 
 * [Index](exercisethinking/index.md)
-* [Recursion](exercisethinking/recursion.md)
 
 ## Tree
 
