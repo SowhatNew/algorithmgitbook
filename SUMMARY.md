@@ -126,6 +126,7 @@
   * [739 Daily Temperatures](sometags/stack/739-daily-temperatures.md)
 * [Greedy](sometags/greedy/README.md)
   * [Interval Scheduling](sometags/greedy/interval-scheduling.md)
+  * [435 Non-overlapping Intervals](sometags/greedy/435-non-overlapping-intervals.md)
 
 ## Design
 
