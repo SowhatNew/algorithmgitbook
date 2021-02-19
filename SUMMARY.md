@@ -115,12 +115,6 @@
   * [234 Palindrome Linked List](sometags/linkedlist/234-palindrome-linked-list.md)
   * [876 Middle of the Linked List](sometags/linkedlist/876-middle-of-the-linked-list.md)
 * [Stack](sometags/stack/README.md)
-  * [Mass](sometags/stack/mass/README.md)
-    * [MyUnion-Find](sometags/stack/mass/union-find.md)
-    * [MyQueueOfStack](sometags/stack/mass/myqueueofstack.md)
-    * [MyStackOfQueue](sometags/stack/mass/mystackofqueue.md)
-    * [MyLRUCache](sometags/stack/mass/mylrucache.md)
-    * [MyLFUCache](sometags/stack/mass/mylfucache.md)
   * [496 Next Greater Element I](sometags/stack/496-next-greater-element-i.md)
   * [503 Next Greater Element II](sometags/stack/503-next-greater-element-ii.md)
   * [739 Daily Temperatures](sometags/stack/739-daily-temperatures.md)
@@ -131,6 +125,12 @@
 
 ## Design
 
+* [Mass](design/mass/README.md)
+  * [MyUnion-Find](design/mass/union-find.md)
+  * [MyQueueOfStack](design/mass/myqueueofstack.md)
+  * [MyStackOfQueue](design/mass/mystackofqueue.md)
+  * [MyLRUCache](design/mass/mylrucache.md)
+  * [MyLFUCache](design/mass/mylfucache.md)
 * [Problems](design/problems/README.md)
   * [295\* Find Median from Data Stream](design/problems/295-find-median-from-data-stream.md)
   * [341 Flatten Nested List Iterator](design/problems/341-flatten-nested-list-iterator.md)
