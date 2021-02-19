@@ -127,6 +127,7 @@
 * [Greedy](sometags/greedy/README.md)
   * [Interval Scheduling](sometags/greedy/interval-scheduling.md)
   * [435 Non-overlapping Intervals](sometags/greedy/435-non-overlapping-intervals.md)
+  * [452 Minimum Number of Arrows to Burst Balloons](sometags/greedy/452-minimum-number-of-arrows-to-burst-balloons.md)
 
 ## Design
 

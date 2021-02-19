@@ -8,7 +8,6 @@ description: Medium
 Given a collection of intervals, find the minimum number of intervals you need
  to remove to make the rest of the intervals non-overlapping.
 
- 
 
 Example 1:
 Input: [[1,2],[2,3],[3,4],[1,3]]
@@ -33,6 +32,10 @@ Intervals like [1,2] and [2,3] have borders "touching" but they don't overlap ea
 
 ```java
 class Solution {
+    /*
+    Runtime: 2 ms, faster than 75.19% of Java online submissions for Non-overlapping Intervals.
+    Memory Usage: 38.8 MB, less than 85.29% of Java online submissions for Non-overlapping Intervals.
+     */
     public int eraseOverlapIntervals(int[][] intvs) {
         if (intvs.length == 0) {
             return 0;
