@@ -120,6 +120,7 @@
   * [739 Daily Temperatures](sometags/stack/739-daily-temperatures.md)
 * [Greedy](sometags/greedy/README.md)
   * [Interval Scheduling](sometags/greedy/interval-scheduling.md)
+  * [55 Jump Game](sometags/greedy/55-jump-game.md)
   * [435 Non-overlapping Intervals](sometags/greedy/435-non-overlapping-intervals.md)
   * [452 Minimum Number of Arrows to Burst Balloons](sometags/greedy/452-minimum-number-of-arrows-to-burst-balloons.md)
 
