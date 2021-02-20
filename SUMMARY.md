@@ -127,6 +127,7 @@
 * [Backtracking](sometags/backtracking/README.md)
   * [46 Permutations](sometags/backtracking/46-permutations.md)
   * [51\* N-Queens](sometags/backtracking/51-n-queens.md)
+  * [52\* N-Queens II](sometags/backtracking/52-n-queens-ii.md)
 * [BitManipulation](sometags/bitmanipulation/README.md)
   * [136 Single Number](sometags/bitmanipulation/136-single-number.md)
   * [191 Number of 1 Bits](sometags/bitmanipulation/191-number-of-1-bits.md)
