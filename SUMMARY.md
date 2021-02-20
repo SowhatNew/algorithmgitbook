@@ -124,6 +124,8 @@
   * [55 Jump Game](sometags/greedy/55-jump-game.md)
   * [435 Non-overlapping Intervals](sometags/greedy/435-non-overlapping-intervals.md)
   * [452 Minimum Number of Arrows to Burst Balloons](sometags/greedy/452-minimum-number-of-arrows-to-burst-balloons.md)
+* [Backtracking](sometags/backtracking/README.md)
+  * [46 Permutations](sometags/backtracking/46-permutations.md)
 * [BitManipulation](sometags/bitmanipulation/README.md)
   * [136 Single Number](sometags/bitmanipulation/136-single-number.md)
   * [191 Number of 1 Bits](sometags/bitmanipulation/191-number-of-1-bits.md)
