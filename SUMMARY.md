@@ -124,6 +124,7 @@
   * [435 Non-overlapping Intervals](sometags/greedy/435-non-overlapping-intervals.md)
   * [452 Minimum Number of Arrows to Burst Balloons](sometags/greedy/452-minimum-number-of-arrows-to-burst-balloons.md)
 * [BitManipulation](sometags/bitmanipulation/README.md)
+  * [191 Number of 1 Bits](sometags/bitmanipulation/191-number-of-1-bits.md)
   * [461 Hamming Distance](sometags/bitmanipulation/461-hamming-distance.md)
 
 ## Design
