@@ -126,6 +126,7 @@
 * [BitManipulation](sometags/bitmanipulation/README.md)
   * [191 Number of 1 Bits](sometags/bitmanipulation/191-number-of-1-bits.md)
   * [461 Hamming Distance](sometags/bitmanipulation/461-hamming-distance.md)
+  * [477 Total Hamming Distance](sometags/bitmanipulation/477-total-hamming-distance.md)
 
 ## Design
 
