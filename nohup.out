@@ -1,0 +1,156 @@
+Live reload server started on port: 40050
+Press CTRL+C to quit ...
+
+[0;36minfo:[0m 7 plugins are installed 
+[0;36minfo:[0m 16 explicitly listed 
+
+[0;31mError: Couldn't locate plugins "anchor-navigation-ex, expandable-chapters, expandable-chapters-small, back-to-top-button, copy-code-button, splitter", Run 'gitbook install' to install plugins from registry.[0m
+Live reload server started on port: 40050
+Press CTRL+C to quit ...
+
+[0;36minfo:[0m 13 plugins are installed 
+[0;36minfo:[0m 16 explicitly listed 
+[0;36minfo:[0m loading plugin "anchor-navigation-ex"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "expandable-chapters"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "expandable-chapters-small"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "back-to-top-button"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "copy-code-button"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "splitter"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "highlight"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "fontsettings"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "livereload"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "search"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "lunr"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "sharing"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "theme-default"... [0;32mOK[0m 
+[0;36minfo:[0m found 133 pages 
+[0;36minfo:[0m found 6 asset files 
+[0;36minfo:[0m [0;32m>> [0mgeneration finished with success in 75.1s ! 
+
+Starting server ...
+Serving book on http://localhost:4050
+(node:266) [DEP0066] DeprecationWarning: OutgoingMessage.prototype._headers is deprecated
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Live reload server started on port: 40050
+Press CTRL+C to quit ...
+
+[0;36minfo:[0m 13 plugins are installed 
+[0;36minfo:[0m 16 explicitly listed 
+[0;36minfo:[0m loading plugin "anchor-navigation-ex"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "expandable-chapters"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "expandable-chapters-small"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "back-to-top-button"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "copy-code-button"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "splitter"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "highlight"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "fontsettings"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "livereload"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "search"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "lunr"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "sharing"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "theme-default"... [0;32mOK[0m 
+[0;36minfo:[0m found 133 pages 
+[0;36minfo:[0m found 6 asset files 
+[0;36minfo:[0m [0;32m>> [0mgeneration finished with success in 16.9s ! 
+
+Starting server ...
+Serving book on http://localhost:4050
+(node:66) [DEP0066] DeprecationWarning: OutgoingMessage.prototype._headers is deprecated
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Restart after change in file README.md
+
+Stopping server
+[0;36minfo:[0m 13 plugins are installed 
+[0;36minfo:[0m 16 explicitly listed 
+[0;36minfo:[0m loading plugin "anchor-navigation-ex"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "expandable-chapters"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "expandable-chapters-small"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "back-to-top-button"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "copy-code-button"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "splitter"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "highlight"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "fontsettings"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "livereload"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "search"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "lunr"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "sharing"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "theme-default"... [0;32mOK[0m 
+[0;36minfo:[0m found 133 pages 
+[0;36minfo:[0m found 6 asset files 
+[0;36minfo:[0m [0;32m>> [0mgeneration finished with success in 20.7s ! 
+
+Starting server ...
+Serving book on http://localhost:4050
+Restart after change in file tree/treetemplate/dfstemplate.md
+
+Stopping server
+[0;36minfo:[0m 13 plugins are installed 
+[0;36minfo:[0m 16 explicitly listed 
+[0;36minfo:[0m loading plugin "anchor-navigation-ex"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "expandable-chapters"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "expandable-chapters-small"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "back-to-top-button"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "copy-code-button"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "splitter"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "highlight"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "fontsettings"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "livereload"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "search"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "lunr"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "sharing"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "theme-default"... [0;32mOK[0m 
+[0;36minfo:[0m found 133 pages 
+[0;36minfo:[0m found 6 asset files 
+[0;36minfo:[0m [0;32m>> [0mgeneration finished with success in 16.2s ! 
+
+Starting server ...
+Serving book on http://localhost:4050
+Restart after change in file tree/treetemplate/dfstemplate.md
+
+Stopping server
+[0;36minfo:[0m 13 plugins are installed 
+[0;36minfo:[0m 16 explicitly listed 
+[0;36minfo:[0m loading plugin "anchor-navigation-ex"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "expandable-chapters"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "expandable-chapters-small"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "back-to-top-button"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "copy-code-button"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "splitter"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "highlight"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "fontsettings"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "livereload"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "search"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "lunr"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "sharing"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "theme-default"... [0;32mOK[0m 
+[0;36minfo:[0m found 133 pages 
+[0;36minfo:[0m found 6 asset files 
+[0;36minfo:[0m [0;32m>> [0mgeneration finished with success in 16.4s ! 
+
+Starting server ...
+Serving book on http://localhost:4050
+Restart after change in file tree/treetemplate/dfstemplate.md
+
+Stopping server
+[0;36minfo:[0m 13 plugins are installed 
+[0;36minfo:[0m 16 explicitly listed 
+[0;36minfo:[0m loading plugin "anchor-navigation-ex"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "expandable-chapters"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "expandable-chapters-small"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "back-to-top-button"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "copy-code-button"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "splitter"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "highlight"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "fontsettings"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "livereload"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "search"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "lunr"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "sharing"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "theme-default"... [0;32mOK[0m 
+[0;36minfo:[0m found 133 pages 
+[0;36minfo:[0m found 6 asset files 
+[0;33mwarn:[0m search index is too big, indexing is now disabled 
+[0;36minfo:[0m [0;32m>> [0mgeneration finished with success in 16.1s ! 
+
+Starting server ...
+Serving book on http://localhost:4050

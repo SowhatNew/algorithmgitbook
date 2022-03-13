@@ -4,11 +4,8 @@ description: DFS ~ Recursive
 
 # DFSTemplate
 
-## DFSTemplate
-
-```text
-class DFSTemplate {
-    // dfs basic
+```java
+public class DFSTemplate {
     public void dfs(TreeNode root) {
         if (root == null) {
             return;
@@ -17,42 +14,37 @@ class DFSTemplate {
         dfs(root.right);
     }
 
-    // dfs boolean
-    public boolean dfs(TreeNode root, int value) {
-        if (root.val != value) {
+    public boolean dfsSearch(TreeNode root, int value) {
+        if (root == null) {
             return false;
         }
-        boolean left = true;
-        boolean right = true;
-        if (root.left != null) {
-            left = dfs(root.left, value);
+        if (root.val == value) {
+            return true;
         }
-        if (root.right != null) {
-            right = dfs(root.right, value);
-        }
+        boolean left = dfsSearch(root.left, value);
+        boolean right = dfsSearch(root.right, value);
         return left && right;
     }
-}
-```
 
-## DFSLevelOrder
-
-```text
-class DFSLevelOrder {
-    public List<List<Integer>> levelOrder(TreeNode root) {
-        dfs(root, 0);
-        return result;
+    public List<List<Integer>> dfsLevelOrder(TreeNode root) {
+        List<List<Integer>> res = new LinkedList<>();
+        dfsLevelOrder(root, 0, res);
+        return res;
     }
-    List<List<Integer>> result = new LinkedList<>();
-    private void dfs(TreeNode root, int depth) {
-        if (root == null) {return;}
-        if (result.size() == depth) {
-            result.add(new LinkedList<>());
+    private void dfsLevelOrder(TreeNode root, int depth, List<List<Integer>> res) {
+        if (root == null) {
+            return;
         }
-        result.get(depth).add(root.val);
-        dfs(root.left, depth+1);
-        dfs(root.right, depth+1);
+        if (res.size() == depth) {
+            res.add(new LinkedList<>());
+        }
+        res.get(depth).add(root.val);
+        dfsLevelOrder(root.left, depth+1, res);
+        dfsLevelOrder(root.right, depth+1, res);
     }
 }
 ```
 
+
+
+## Others
